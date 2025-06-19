@@ -67,6 +67,7 @@ h3 {
 p {
     margin-bottom: 1rem;
     color: var(--text-color);
+    text-align: justify;
 }
 
 /* Links */
@@ -288,6 +289,10 @@ a:focus-visible {
     text-align: center;
 }
 
+.footer p {
+    color: white;
+}
+
 .footer-content {
     display: flex;
     flex-direction: column;
@@ -329,6 +334,21 @@ a:focus-visible {
     .project-content, .discipline-content {
         grid-template-columns: 1fr 2fr;
         gap: 3rem;
+    }
+    
+    /* Alternating image layout */
+    .project-content.image-right, .discipline-content.image-right {
+        grid-template-columns: 2fr 1fr;
+    }
+    
+    .project-content.image-right .project-image,
+    .discipline-content.image-right .discipline-image {
+        order: 2;
+    }
+    
+    .project-content.image-right .project-text,
+    .discipline-content.image-right .discipline-text {
+        order: 1;
     }
     
     .hero {
@@ -415,6 +435,11 @@ a:focus-visible {
     
     .project-content, .discipline-content {
         gap: 4rem;
+    }
+    
+    /* Alternating image layout for large desktop */
+    .project-content.image-right, .discipline-content.image-right {
+        grid-template-columns: 2fr 1fr;
     }
 }
 

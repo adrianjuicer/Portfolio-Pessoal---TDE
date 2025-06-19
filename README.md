@@ -2,6 +2,10 @@
 
 Este é o portfólio acadêmico de Adrian, estudante de Ciência da Computação, desenvolvido como parte do Trabalho Dirigido de Ensino (TDE). O projeto apresenta os trabalhos e projetos desenvolvidos nas disciplinas do primeiro ano do curso.
 
+## 🌐 Acesso ao Site
+
+**Visualize o portfólio online**: [https://adrianjuicer.github.io/Portfolio-Pessoal---TDE](https://adrianjuicer.github.io/Portfolio-Pessoal---TDE)
+
 ## 🎯 Objetivo
 
 Criar um site portfólio que demonstre os conhecimentos adquiridos e projetos desenvolvidos nas disciplinas:
@@ -15,7 +19,6 @@ Criar um site portfólio que demonstre os conhecimentos adquiridos e projetos de
 
 - **HTML5** - Estrutura semântica e acessível
 - **CSS3** - Design responsivo com Flexbox/Grid
-- **JavaScript** - Interatividade e navegação
 - **GitHub Pages** - Hospedagem automática
 
 ## 📧 Contato
