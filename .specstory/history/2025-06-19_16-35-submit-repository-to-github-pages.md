@@ -160,7 +160,7 @@ Now let's verify the structure and commit the changes:
 
 ---
 
-
+Perfect! Now let's commit these changes and push them to GitHub:
 
 ---
 
@@ -326,6 +326,90 @@ git remote -v
 PS C:\Users\usuario\Desktop\Portfólio Pessoal>
 
 ```
+
+---
+
+
+
+---
+
+I see that no remote repository is configured yet. You'll need to add your GitHub repository as the remote origin. Here's how to do it:
+
+```bash
+git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+```
+
+**Replace `YOUR_USERNAME` with your GitHub username and `YOUR_REPOSITORY_NAME` with your repository name.**
+
+Once you've added the remote origin, then you can push with:
+```bash
+git push -u origin main
+```
+
+## Now, here's how to enable GitHub Pages:
+
+### Step-by-Step GitHub Pages Setup:
+
+1. **Go to your GitHub repository** in your web browser
+2. **Click on the "Settings" tab** (in the repository's top navigation)
+3. **Scroll down and click on "Pages"** in the left sidebar
+4. **Under "Source"**, select **"Deploy from a branch"**
+5. **Select branch**: Choose **"main"** (or "master" if that's your default branch)
+6. **Select folder**: Choose **"/ (root)"** since we moved your `index.html` to the root directory
+7. **Click "Save"**
+
+### Your site will be available at:
+```
+https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/
+```
+
+GitHub will take a few minutes to build and deploy your site. You'll see a green checkmark when it's ready!
+
+Would you like me to help you add the remote origin if you provide your GitHub username and repository name?
+
+---
+
+_**User**_
+
+iv renamed my repository in git hub to Portfolio-Pessoal---TDE
+
+---
+
+_**Assistant**_
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+
+
+---
+
+
 
 ---
 
