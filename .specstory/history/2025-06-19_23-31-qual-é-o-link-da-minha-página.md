@@ -194,3 +194,15 @@ O `-u` é uma configuração única que "ensina" ao Git onde fazer push por padr
 
 ---
 
+_**User**_
+
+ok algo está errado, meu index local nao esta batendo com o do github pages. e as imagens nao carregaram lá tbm
+
+---
+
+_**Assistant**_
+
+
+
+---
+
